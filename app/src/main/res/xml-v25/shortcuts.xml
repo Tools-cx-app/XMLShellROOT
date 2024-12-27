@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shortcuts xmlns:android="http://schemas.android.com/apk/res/android">
+    <!--<shortcut
+        android:enabled="true"
+        android:icon="@drawable/shortcut_settings"
+        android:shortcutDisabledMessage="@string/shortcut_disabled"
+        android:shortcutId="xposed"
+        android:shortcutLongLabel="@string/shortcut_xposed"
+        android:shortcutShortLabel="@string/shortcut_xposed_long">
+        <intent
+            android:action="android.intent.action.VIEW"
+            android:targetClass="com.root.vaddin.MainActivity"
+            android:targetPackage="com.root.vaddin" />
+    </shortcut>-->
+    <shortcut
+        android:enabled="true"
+        android:icon="@drawable/power_emergency.png"
+        android:shortcutDisabledMessage="@string/shortcut_disabled"
+        android:shortcutId="ActivityApp"
+        android:shortcutLongLabel="@string/title_activity_freeze"
+        android:shortcutShortLabel="@string/title_activity_freeze">
+        <intent
+            android:action="a"
+            android:targetClass="com.projectkr.shell.APP"
+            android:targetPackage="com.projectkr.shell" />
+    </shortcut>
+</shortcuts>

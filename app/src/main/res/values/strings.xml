@@ -14,6 +14,8 @@
     <string name="title_activity_action_page">功能分页</string>
     <string name="monitor_laod">负载：%d%%</string>
     
+    <string name="title_activity_freeze">启动XML</string>
+    <string name="shortcut_disabled">暂不可用</string>
     <string name="author_name">XMLROOT</string>
     <string name="about_title">XMLROOT</string>
     <string name="appliction_desc">XMLROOT</string>
